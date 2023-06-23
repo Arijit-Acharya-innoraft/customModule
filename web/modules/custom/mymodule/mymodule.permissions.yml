@@ -1,0 +1,10 @@
+view mymodule:
+  title: View my module.
+  description: View the my module module's content.
+access mymodule:
+  title: Access mymodule 
+  description: Access mymodule's features.
+administer mymodule:
+  title: Access myomdule's settings.
+  description: Access the admin mymodule's setting page.
+  restrict access: true

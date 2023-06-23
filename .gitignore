@@ -5,7 +5,7 @@ private/
 /web/sites/simpletest
 /web/sites/*/files/
 /web/sites/default/*/files
-/web/modules
+/web/modules/contrib
 /web/themes/contrib/
 /web/themes/adaptivetheme
 /web/core/
