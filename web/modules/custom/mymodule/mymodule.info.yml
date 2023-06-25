@@ -6,3 +6,4 @@ package: 'Custom package'
 dependencies:
   - admin_toolbar:admin_toolbar
   - token
+  

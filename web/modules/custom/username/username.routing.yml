@@ -1,0 +1,7 @@
+# username.fetchname:
+#   path: 'username/name'
+#   defaults:
+#     _controller: 'Drupal\username\Controller\UserNameController::fetchName'
+#     _title: 'Display Name'
+#   requirements:
+#     _permission: 'access content'

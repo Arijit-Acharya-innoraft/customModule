@@ -20,5 +20,7 @@ function mymodule_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_
   if($form_id == 'comment_comment_form'){ 
   $form['actions']['submit']['#value'] = t("Submit !");
   }
+
 }
+
 ?>

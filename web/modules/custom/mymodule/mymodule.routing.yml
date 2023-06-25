@@ -1,21 +1,21 @@
 mymodule.simplecontent:
-  path: '/mycustompath'
+  path: '/mymodule/mycustompath'
   defaults: 
     _controller: 'Drupal\mymodule\Controller\FirstController::simpleContent'
-    _title: 'Custom Title 1'
+    _title: 'Custom Title'
   requirements: 
     _permission: 'view mymodule' 
 
 mymodule.greetings:
-  path: '/greetings/{name}'
+  path: '/mymodule/greetings/{name}'
   defaults: 
     _controller: 'Drupal\mymodule\Controller\FirstController::greetings'
-    _title: 'Custom Title 1'
+    _title: 'Custom Title'
   requirements: 
     _permission: 'access content' 
 
 mymodule.showName:
-  path: '/welcome'
+  path: '/mymodule/welcome'
   defaults: 
     _controller: 'Drupal\mymodule\Controller\FirstController::showName'
     _title: 'Welcome!'
