@@ -1,9 +1,0 @@
-view username:
-  title: View User Name.
-  description: View the username module's content.
-access username:
-  title: Access User Name 
-  description: Access username's features.
-administer username:
-  title: Access username's settings.
-  description: Access the admin username's setting page.

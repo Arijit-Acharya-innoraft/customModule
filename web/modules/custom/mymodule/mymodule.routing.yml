@@ -20,4 +20,12 @@ mymodule.showName:
     _controller: 'Drupal\mymodule\Controller\FirstController::showName'
     _title: 'Welcome!'
   requirements: 
-    _permission: 'access content' 
+    _permission: 'access content'
+
+mymodule.firstForm:
+  path: '/mymodule/form'
+  defaults:
+    _form: 'Drupal\mymodule\Form\FirstForm'
+    _title: 'Form'
+  requirements:
+    _permission: 'access content'

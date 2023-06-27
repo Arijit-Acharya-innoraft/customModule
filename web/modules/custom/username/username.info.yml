@@ -1,8 +1,0 @@
-name: 'User name'
-description: 'It fetches the user name from the user controller class.'
-type: module
-core_version_requirement: ^9||^10
-package: 'Custom package'
-dependencies: 
-  - mymodule
-  
