@@ -1,0 +1,9 @@
+name: 'My Module'
+description: 'This is the first custom module.'
+type: module
+core_version_requirement: ^10
+package: 'Custom package'
+dependencies:
+  - admin_toolbar:admin_toolbar
+  - token
+  

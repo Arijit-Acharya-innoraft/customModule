@@ -1,0 +1,26 @@
+<?php
+
+/**
+*@file
+*This file implements how to implement the hoook function.
+*/
+
+/**
+*Implements hook_cron
+*/
+function mymodule_cron() {
+  \Drupal::messenger()->addMessage(t("Hello World from mymodule  hook_cron"));
+}
+
+/**
+* This implements hook_form_alter().
+*/
+function mymodule_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  //  \Drupal::messenger()->addMessage(t("the form id of this form is @id:",['@id'=>$form_id]));
+  if($form_id == 'comment_comment_form'){ 
+  $form['actions']['submit']['#value'] = t("Submit !");
+  }
+
+}
+
+?>
