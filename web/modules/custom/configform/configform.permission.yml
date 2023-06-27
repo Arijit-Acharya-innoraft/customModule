@@ -1,0 +1,10 @@
+view configform:
+  title: View configform.
+  description: View the configform module's content.
+access configform:
+  title: Access configform 
+  description: Access configform's features.
+administer configform:
+  title: Access configform's settings.
+  description: Access the admin configform's setting page.
+  restrict access: true
