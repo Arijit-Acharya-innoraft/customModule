@@ -1,0 +1,7 @@
+configform.basicForm:
+  path: '/admin/config/configform'
+  defaults:
+    _form: 'Drupal\configform\Form\CustomConfigForm'
+    _title: 'Config Form'
+  requirements:
+    _permission: 'administer configform'
